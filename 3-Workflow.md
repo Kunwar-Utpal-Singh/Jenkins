@@ -1,5 +1,5 @@
 # How Jenkins Work:
-##Pipeline Architecture (How all works)
+## Pipeline Architecture (How all works)
 
 ```hcl
 Developer → Push code → GitHub

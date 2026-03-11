@@ -18,7 +18,7 @@ This process is the part of CI/CD part.
 ## What is the continuouse integration?
 CI is the practice of integration  source code change frequently and integrated codebase in workable state.
 Developers frequently merges there code in shared repository(Github)
-
+```hcl
 Every time developer pushed the code to the repository:
 The system automatically builds the project
 Runs tests
@@ -28,8 +28,9 @@ Example CI tools:
 Jenkins
 GitHub Actions
 GitLab CI/CD
+```
 
-
+```hcl
 CI Flow
 Developer writes code
 Pushes code to GitHub
@@ -37,15 +38,18 @@ CI tool automatically:
           Builds the application
           Runs tests
           Detects errors early
+```          
 
 # What is the continuous deployment?
 When application automatically deploys the code into the server after run test is called Deployment but befor the deployment when there is any intervention manually is call Delivery.
 
-### Continuous Delivery
+### Continuous Delivery:
+```hcl
 Code is automatically:
 Built
 Tested
 Prepared for production
+```
 
 ### simple CI/CD pipeline:
 ```hcl

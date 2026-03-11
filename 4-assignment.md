@@ -6,7 +6,9 @@
  Create 2 instances one for master machine where we are going to install Jenkins and Java and second one is slave machine where we wil install Java .
 
 ### install Java 
+sudo apt update
 sudo apt install openjdk-17-jdk
+java --version
 
 Now we are going to install jenkins on aur Master Machine.
 We are going to install the jenkins by Script file
@@ -142,10 +144,13 @@ GitHub → webhook → Jenkins → pipeline → slave machine
 # Now click on build:
 You will see build is successfull.
 After this only we have created a pipeline Successfully.
-For confirmation go to the Slave machine and run ls will will see the file with  name "Jenkins".
+For confirmation go to the Slave machine and run ls you will see the file with  name "Jenkins".
 ```hcl
 cd jenkins======> ls========> cd workspace
-``` you will see the Job you have creaed on jenkins dashboard.
+```
+ you will see the Job you have creaed on jenkins dashboard.
+
+ Now anything you are changing on develop github branch its automatically trigger the jenkins pipeline and job will be created automatically on jenkins.
 
 
 
